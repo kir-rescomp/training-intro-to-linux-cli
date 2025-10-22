@@ -1,11 +1,11 @@
-site_name: KIR Training Catalogue
+site_name: Introduction to Linux Command Line
 site_author: The Kennedy Institute of Rheumatology, NDORMS, University of Oxford
 site_dir: public
-site_url: "https://kir-rescomp.github.io/kir-training-home/"
+site_url: "https://kir-rescomp.github.io/training-intro-to-linux-cli/"
 
 #Repository information
-repo_name:  kir-rescomp/kir-training-home 
-repo_url: https://github.com/kir-rescomp/kir-training-home
+repo_name:  kir-rescomp/training-intro-to-linux-cli
+repo_url: https://github.com/kir-rescomp/training-intro-to-linux-cli
 
 
 theme:
