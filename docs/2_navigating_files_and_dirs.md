@@ -1,4 +1,4 @@
-# 2, Navigating Files and Directories
+# 2. Navigating Files and Directories
 
 !!! clipboard-list "Episode objectives"
 
