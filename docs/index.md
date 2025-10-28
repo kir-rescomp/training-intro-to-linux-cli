@@ -7,15 +7,18 @@
 
 <!--- check -->
 
+<div style="display: flex; justify-content: center;" markdown="1">
 
 
 | **Lesson**                                         | **Overview** | 
 |:---------------------------------------------------|:-------------|
 |1. [Introducing the shell](./1_background_introduction.md)| Introduce the shell |
 |2. [Navigating files and directories](./2_navigating_files_and_dirs.md)| moving around the filesystem|
-|3. [Absolute vs Relarive Paths](./3_absolute_vs_relativepath.md)| |
+|3. [Absolute vs Relarive Paths](./3_absolute_vs_relativepath.md)| Introduce absolute vs relative path|
+|4. [Working with Files and Directories](./4_working_with_files_and_directories.md)|View, search within, copy, move, and rename files. Create new directories|
+|5. [Redirection](./5_redirection.md)|Employ the grep command to search for information within files|
 
-
+</div>
 - - - 
 
 !!! copyright "Attribution Notice"
