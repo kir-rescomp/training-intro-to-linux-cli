@@ -145,11 +145,118 @@ which tells `ls` to add a trailing `/` to the names of directories:
         ```
 
         ```output
-        total 8
-        drwxr-x--- 2 training training 4096 Jul 30  2015 sra_metadata
-        drwxr-xr-x 2 training training 4096 Nov 15  2017 untrimmed_fastq
+        total 2
+        drwxrws--- 2 user group 4096 Jul 28  2024 sra_metadata
+        drwxrws--- 2 user group 4096 Jul 28  2024 untrimmed_fastq
         ```
 
         The additional information given includes the name of the owner of the file,
         when the file was last modified, and whether the current user has permission
         to read and write to the file.
+
+Let's go into the `untrimmed_fastq` directory and see what is in there.
+
+!!! terminal "code"
+
+    ```bash
+    $ cd untrimmed_fastq
+    $ ls -F
+    ```
+
+    ```output
+    SRR097977.fastq  SRR098026.fastq
+    ```
+
+This directory contains two files with `.fastq` extensions. FASTQ is a format
+for storing information about sequencing reads and their quality.
+We will be learning more about FASTQ files in a later lesson.
+
+### Shortcut: Tab Completion
+
+Typing out file or directory names can waste a
+lot of time and it's easy to make typing mistakes. Instead we can use tab complete
+as a shortcut. When you start typing out the name of a directory or file, then
+hit the <kbd>Tab</kbd> key, the shell will try to fill in the rest of the
+directory or file name.
+
+Return to your home directory:
+
+!!! terminal "code"
+    ```bash
+    $ cd
+    ```
+
+    then enter:
+
+    ```bash
+    $ cd she<tab>
+    ```
+
+The shell will fill in the rest of the directory name for `shell_data`.
+
+Now change directories to `untrimmed_fastq` in `shell_data`
+
+!!! terminal "code"
+
+    ```bash
+    $ cd shell_data
+    $ cd untrimmed_fastq
+    ```
+
+Using tab complete can be very helpful. However, it will only autocomplete
+a file or directory name if you've typed enough characters to provide
+a unique identifier for the file or directory you are trying to access.
+
+For example, if we now try to list the files which names start with `SR`
+by using tab complete:
+
+!!! terminal "code"
+
+    ```bash
+    $ ls SR<tab>
+    ```
+
+The shell auto-completes your command to `SRR09`, because all file names in
+the directory begin with this prefix. When you hit
+<kbd>Tab</kbd> again, the shell will list the possible choices.
+
+!!! terminal "code"
+
+    ```bash
+    $ ls SRR09<tab><tab>
+    ```
+
+    ```output
+    SRR097977.fastq  SRR098026.fastq
+    ```
+
+Tab completion can also fill in the names of programs, which can be useful if you
+remember the beginning of a program name.
+
+!!! terminal "code"
+
+    ```bash
+    $ pw<tab><tab>
+    ```
+
+    ```output
+    pwck        pwconv      pwd     pwdx        pwhistory_helper        pwmake      pwscore     pwuncon
+    ```
+
+Displays the name of every program that starts with `pw`.
+
+!!! graduation-cap "Summary"
+
+    We now know how to move around our file system using the command line.
+    This gives us an advantage over interacting with the file system through
+    a GUI as it allows us to work on a remote server, carry out the same set of operations
+    on a large number of files quickly, and opens up many opportunities for using
+    bioinformatic software that is only available in command line versions.
+    
+    In the next few episodes, we'll be expanding on these skills and seeing how
+    using the command line shell enables us to make our workflow more efficient and reproducible.
+         
+    - The shell gives you the ability to work more efficiently by using keyboard commands rather than a GUI.
+    - Useful commands for navigating your file system include: `ls`, `pwd`, and `cd`.
+    - Most commands take options (flags) which begin with a `-`.
+    - Tab completion can reduce errors from mistyping and make work more efficient in the shell.
