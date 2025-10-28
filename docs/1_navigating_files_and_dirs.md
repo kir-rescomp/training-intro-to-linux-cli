@@ -130,3 +130,26 @@ which tells `ls` to add a trailing `/` to the names of directories:
     !!! tip "Hot-key combinations are shortcuts for performing common commands."
 
         The hot-key combination for clearing the console is `Ctrl+L`. Feel free to try it and see for yourself.
+
+
+!!! question "Challenge"
+
+    Use the `-l` option for the `ls` command to display more information for each item
+    in the directory. What is one piece of additional information this long format
+    gives you that you don't see with the bare `ls` command?
+
+    ??? check-to-slot "solution"
+
+        ```bash
+        $ ls -l
+        ```
+
+        ```output
+        total 8
+        drwxr-x--- 2 training training 4096 Jul 30  2015 sra_metadata
+        drwxr-xr-x 2 training training 4096 Nov 15  2017 untrimmed_fastq
+        ```
+
+        The additional information given includes the name of the owner of the file,
+        when the file was last modified, and whether the current user has permission
+        to read and write to the file.
