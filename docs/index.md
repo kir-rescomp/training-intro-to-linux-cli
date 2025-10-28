@@ -7,6 +7,7 @@
 
 <!--- check -->
 
+<div style="display: flex; justify-content: center;" markdown="1">
 
 
 | **Lesson**                                         | **Overview** | 
@@ -15,7 +16,7 @@
 |2. [Navigating files and directories](./2_navigating_files_and_dirs.md)| moving around the filesystem|
 |3. [Absolute vs Relarive Paths](./3_absolute_vs_relativepath.md)| |
 
-
+</div>
 - - - 
 
 !!! copyright "Attribution Notice"
