@@ -9,8 +9,8 @@
 
 | **Lesson**                                         | **Overview** | 
 |:---------------------------------------------------|:-------------|
-|1. [Introducing the shell](./0_background_introduction.md)| Introduce the shell |
-|2. [Navigating files and directories](./1_navigating_files_and_dirs.md)| moving around the filesystem. Introduce absolute vs relative pat
+|1. [Introducing the shell](./1_background_introduction.md)| Introduce the shell |
+|2. [Navigating files and directories](./2_navigating_files_and_dirs.md)| moving around the filesystem. Introduce absolute vs relative pat
 
 - - - 
 
