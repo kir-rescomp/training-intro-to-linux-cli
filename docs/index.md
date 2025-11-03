@@ -27,6 +27,8 @@
 
 !!! copyright "Attribution Notice"
 
+    Materials used in these lessons are derived from : 
+
     * This  material is adapted  and inspired by [Data Carpentry - Shell Genomics](https://datacarpentry.org/shell-genomics/)
  
 
