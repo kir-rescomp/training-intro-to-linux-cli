@@ -29,7 +29,7 @@
 
     Materials used in these lessons are derived from : 
 
-    * This  material is adapted  and inspired by [Data Carpentry - Shell Genomics](https://datacarpentry.org/shell-genomics/)
+    * Data Carpentry ( 2023, May)._Introduction to the Command Line For Genomics_. https://datacarpentry.github.io/shell-genomics/
  
 
 !!! key "License" 
