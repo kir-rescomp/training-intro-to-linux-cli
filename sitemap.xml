@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://kir-rescomp.github.io/training-intro-to-linux-cli/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://kir-rescomp.github.io/training-intro-to-linux-cli/1_background_introduction/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://kir-rescomp.github.io/training-intro-to-linux-cli/2_navigating_files_and_dirs/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://kir-rescomp.github.io/training-intro-to-linux-cli/3_absolute_vs_relativepath/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://kir-rescomp.github.io/training-intro-to-linux-cli/4_working_with_files_and_directories/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://kir-rescomp.github.io/training-intro-to-linux-cli/5_redirection/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+    <url>
+         <loc>https://kir-rescomp.github.io/training-intro-to-linux-cli/supplementary/1_supplementary/</loc>
+         <lastmod>2025-11-05</lastmod>
+    </url>
+</urlset>
